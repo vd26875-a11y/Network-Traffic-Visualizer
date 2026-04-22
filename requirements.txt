@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+gunicorn
+sqlalchemy
+websockets
+scapy
+scikit-learn
+pandas
+numpy
+python-dotenv
+alembic
+requests
+pydantic
+pydantic-settings
+reportlab
+python-jose[cryptography]
+passlib[bcrypt]
