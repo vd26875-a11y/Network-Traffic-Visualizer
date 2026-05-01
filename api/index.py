@@ -7,4 +7,4 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from backend.app.main import app
 
 # This is for Vercel
-# "handler = app"
+"handler = app"
