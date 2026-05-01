@@ -102,8 +102,8 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
     docs_url="/api/docs",
-    redoc_url="/api/redoc",
-    swagger_ui_parameters={"syntaxHighlight": False}
+    redoc_url="/api/redoc"
+    
 )
 
 # Add security middleware FIRST (order matters)
