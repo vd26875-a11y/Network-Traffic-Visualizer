@@ -119,7 +119,7 @@ app.add_middleware(
     max_age=3600,
 )
 
-app.include_router(routes.router, prefix="/api")
+app.include_router(routes.router)
 
 @app.websocket("/ws/live-packets")
 async def websocket_packets(websocket: WebSocket):
